@@ -2,6 +2,10 @@ import { User } from "./modals/User";
 
 const user = new User({ name: " New Record ", age: 0 });
 
-user.on("Change", () => {
-  console.log("user was changed");
+console.log(user.get("name"));
+
+user.on("change", () => {
+  console.log("User Was Change");
 });
+
+user.trigger("Change");
