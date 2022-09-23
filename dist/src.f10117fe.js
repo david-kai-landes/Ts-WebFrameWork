@@ -123,7 +123,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Eventing = void 0; //
+exports.Eventing = void 0;
 
 var Eventing =
 /** @class */
