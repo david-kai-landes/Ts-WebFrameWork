@@ -3,8 +3,6 @@ import { Eventing } from "./Eventing";
 import { Sync } from "./Sync";
 import { Attributes } from "./Attributes";
 
-// type Callback = () => void;
-
 export interface UserProps {
   id?: number;
   name?: string;
